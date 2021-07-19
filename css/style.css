@@ -1,0 +1,258 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+}
+
+
+.bg-img{
+  background-image: url('../Pic/lp.jpg');
+  min-height: 710px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Slogan{
+  position:absolute;
+  top: 50%;
+  left:44%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+
+}
+
+.Slogan Button{
+  padding: 10px 35px;
+  background-color:rgba(237, 243, 245, 0.322);
+  color:grey;
+  box-shadow: none;
+  border-radius:20px;
+  border:2px solid transparent;
+}
+
+.Slogan Button a:hover{
+  cursor: pointer;
+  color:grey;
+}
+.Slogan Button a{
+  text-decoration: none;
+  color: aliceblue;
+
+}
+
+.Slogan h2{
+  letter-spacing: 10px;
+  line-height: 1.6em;
+  color: whitesmoke;
+}
+.Slogan h3{
+  color: whitesmoke;
+
+}
+.Slogan h2{
+  animation-duration: 4s;
+}
+.Slogan h3{
+  animation-duration: 3s;
+}
+.input{
+  position: absolute;
+  top:70%;
+  left:40%;
+}
+.navbar{
+  background-color: #5c474200;
+  display: flex;
+  justify-content: center;
+  border:0;
+  box-shadow: none;
+
+}
+.navbar a:hover{
+  color:grey;
+  box-shadow: none;
+
+}
+.nav-wrapper a{
+  color:whitesmoke;
+}
+
+.fab{
+    padding-bottom: 8px;
+
+}
+.grey-text{
+    padding-bottom: 8px;
+}
+.card-image img{
+    height: 180px;
+}
+
+
+
+.sidenav{
+  background-color: #3c3e3fef;
+
+}
+.sidenav li a {
+
+  color:grey;
+}
+.sidenav li a:hover{
+  color:white;
+
+}
+
+#popular h4{
+  margin-bottom: 40px;
+}
+.card-image img{
+transition: .3s ease transform;
+}
+.card-image img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+ .card-panel:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+  cursor: pointer;
+  transition: .3s ease
+
+}
+
+.card-panel i{
+  transition: .3s ease transform;
+
+}
+.card-panel i:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+
+.row{
+  margin-top: 20px;
+}
+
+  .btn-small{
+    margin: 30px 55px;
+
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.social li:hover{
+  cursor: pointer;
+  color: #90a4ae;
+}
+.social li{
+  margin-left:60px;
+}
+.container-form{
+  display: flex;
+  align-items: center;
+
+}
+.input-field input:focus + label {
+  color:grey !important;
+}
+.row .input-field input:focus {
+  border-bottom: 1px solid grey !important;
+  box-shadow: 0 1px 0 0 grey !important
+}
+.material-icons.active {
+ color:grey !important;
+}
+.input{
+  position:absolute;
+  top:70%;
+  left:50%;
+}
+
+.select-wrapper input.select-dropdown{
+  color:grey;
+}
+#about{
+  margin-top:19vh;
+  margin-bottom:5vh;
+}
+#about h4{
+  margin-bottom: 50px;
+}
+
+#booking h4{
+  margin-top:19vh;
+  margin-bottom:15vh;
+}
+.button{
+  padding:10px 20px;
+  color:grey;
+  border-radius:20px;
+  border:2px solid transparent;
+  margin-top: 20px;
+  margin-left: 20px;
+  position:relative;
+  left:15%;
+
+}
+.button:hover{
+  cursor:pointer;
+}
+.button:focus{
+  background-color:rgb(177, 177, 177);
+  color:white;
+ }
+
+#contact{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.contact-container {
+  margin-top:5rem;
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-column-gap:15px;
+	grid-row-gap:20px;
+	grid-auto-rows: 300px;
+
+}
+
+
+.input-field{
+  margin-top: 6px;
+}
+.button-message{
+  padding:10px 20px;
+  color:grey;
+  border-radius:20px;
+  border:2px solid transparent;
+  position: absolute;
+  left:15%;
+  margin-top: 10px;
+  }
+  .button-message:focus{
+   background-color:rgb(177, 177, 177);
+   color:white;
+  }
+  .button-message:hover{
+    cursor: pointer;
+  }
+
+  .map-info textarea[type=text]:focus{
+    outline:none !important;
+  }
+  .input-field input:focus + label {
+    color:grey !important;
+  }
+   .input-field input:focus {
+    border-bottom: 1px solid grey !important;
+    box-shadow: 0 1px 0 0 grey !important
+  }

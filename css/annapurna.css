@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway&family=Roboto&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.pic-container{
+  height:500px;
+}
+.pic-container img{
+  height:500px;
+  width:100%;
+}
+.layout{
+  min-height: 100vh;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 220px;
+  grid-row-gap:5px;
+  grid-column-gap: 2px;
+  grid-template-areas:
+  "sidebar main main"
+  "sidebar main main"
+  "sidebar footer footer";
+}
+@media only screen and (max-width:992px){
+  .layout{
+  grid-template-columns: 180px;
+    }
+  }
+.collection{
+  margin-top:0px;
+
+}
+
+.collection .collection-item{
+  font-family: Raleway;
+  font-size: 18px;
+}
+.collection.with-header .collection-header{
+  background-color: #f4f4f4;
+
+}
+.collection.with-header .collection-header h4{
+  font-family: 'Oswald', sans-serif;
+}
+.collection.with-header .collection-item{
+  padding-left: 3px;
+}
+.header{
+  border:.5px solid #e0e0e0;
+  height:96px;
+  background-color:#f4f4f4;
+}
+.header h4{
+  padding-left: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+.side-header{
+  border:.5px solid #e0e0e0;
+  height:96px;
+  background-color:#f4f4f4;
+  padding-left: 15px;
+  font-family: 'Oswald', sans-serif;
+
+
+}
+.info{
+  margin-top: 10px;
+  margin-bottom:17px;
+}
+.info p{
+  line-height: 1.8;
+  font-family: Raleway;
+  text-align: justify;
+  font-size: 18px;
+}
+@media only screen and (max-width:992px){
+  .info p{
+text-align: justify;
+  }
+}
+.checked{
+  color:orange;
+}
+.sidebar{
+  margin-left: 5px;
+}
+.button{
+  text-align: center;
+  padding:8px 30px;
+  border:1px solid #546e7a;
+  border-radius: 20px;
+  background-color: #546e7a;
+  color:white;
+}
+button:hover{
+  color:grey;
+  cursor: pointer;
+}
+.img-container{
+  margin-top: 2px;
+  width:220px;
+
+}
+
+.img-container img{
+  width:215px;
+  height:229px;
+
+}
+.social{
+  display: flex;
+  justify-content:center;
+
+}
+.fab{
+  padding-right: 30px;
+}
+
+#booking{
+  margin-top: 8rem;
+}
+.row h4{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 3rem;
+}
+.input-field input:focus + label {
+  color:grey !important;
+}
+.material-icons.active {
+ color:grey !important;
+}
+.row .input-field input:focus {
+  border-bottom: 1px solid grey !important;
+  box-shadow: 0 1px 0 0 grey !important
+}
