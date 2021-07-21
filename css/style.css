@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway=swap');
 *{
   padding: 0;
   margin: 0;
@@ -77,6 +81,7 @@ scroll-behavior: smooth;
 .navbar a:hover{
   color:grey;
   box-shadow: none;
+  background: none;
 
 }
 .nav-wrapper a{
@@ -107,9 +112,11 @@ scroll-behavior: smooth;
 .sidenav li a:hover{
   color:white;
 
+
 }
 
 #popular h4{
+  font-family: Raleway sans-serif;
   margin-bottom: 40px;
 }
 .card-image img{
@@ -185,17 +192,19 @@ cursor: pointer;
   margin-bottom:5vh;
 }
 #about h4{
+  font-family: Raleway sans-serif;
   margin-bottom: 50px;
 }
 
 #booking h4{
+  font-family: 'Oswald', sans-serif;
   margin-top:19vh;
   margin-bottom:15vh;
 }
 .button{
   padding:10px 20px;
   color:grey;
-  border-radius:20px;
+
   border:2px solid transparent;
   margin-top: 20px;
   margin-left: 20px;
@@ -212,8 +221,12 @@ cursor: pointer;
  }
 
 #contact{
+
   margin-top: 10rem;
   margin-bottom: 10rem;
+}
+#contact h4{
+  font-family: Raleway sans-serif;
 }
 .contact-container {
   margin-top:5rem;
@@ -230,13 +243,13 @@ cursor: pointer;
   margin-top: 6px;
 }
 .button-message{
-  padding:10px 20px;
-  color:grey;
-  border-radius:20px;
+  padding:5px 20px;
+  color:white;
   border:2px solid transparent;
+  background-color: grey;
   position: absolute;
-  left:15%;
-  margin-top: 10px;
+  left:17%;
+  margin-top:15px;
   }
   .button-message:focus{
    background-color:rgb(177, 177, 177);
@@ -256,3 +269,170 @@ cursor: pointer;
     border-bottom: 1px solid grey !important;
     box-shadow: 0 1px 0 0 grey !important
   }
+  .image-info{
+    margin-top: 150px;
+    position: relative;
+  }
+
+.banner-container{
+ display: flex;
+ flex-direction:row;
+ flex-wrap: wrap;
+}
+
+.banner-container img{
+ width: 100%;
+ height: 400px;
+ filter: brightness(0.5);
+}
+
+@media only screen and (max-width:800px){
+  .banner-container{
+    flex-direction: column;
+  }
+}
+
+.heroimg{
+  color: white;
+  position: absolute;
+  top:10%;
+  left:7%;
+  flex-wrap: wrap;
+
+}
+.heroimg button{
+  border: 1px solid transparent;
+  padding:5px 30px;
+  background-color: grey;
+  color:whitesmoke;
+}
+@media only screen and (max-width:800px){
+  .heroimg{
+    position:absolute;
+    top:0%;
+    left:5%;
+  }
+}
+
+.heroimg h4{
+  font-family: Roboto, Arial, sans-serif;
+
+}
+
+.heroimg p{
+  width:500px;
+  text-align:justify;
+  line-height: 2;
+  font-family:'Raleway', sans-serif;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width:800px){
+  .heroimg p{
+    line-height: 1.4;
+    margin-bottom: 10px;
+    width:350px;
+    }
+  }
+
+.rules{
+  position: absolute;
+  right:10%;
+  top:20%;
+  color:white;
+
+}
+@media only screen and (max-width:800px){
+  .rules{
+    position:absolute;
+    top:50%;
+    left: 6%;
+
+  }
+}
+.rules ul li{
+  list-style: circle;
+  line-height: 2;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+#about-mountains{
+  background-color: #f4f4f4;
+  height:400px;
+  margin-top: 20vh;
+}
+@media only screen and (max-width:800px){
+  #about-mountains{
+    height: 550px;
+  }
+}
+@media only screen and (max-width:800px){
+.about-moutain{
+margin-top: 10px;
+  }
+}
+.about-mountain h4{
+  padding-top: 20px;
+  text-align: center;
+ font-family: Raleway sans-serif;
+ color: #78909c;
+}
+@media only screen and (max-width:800px){
+  .about-mountain h4{
+  padding-top: 15px;
+  margin-bottom: 0px;
+  }
+}
+.moutainimg{
+  display: flex;
+  justify-content: center;
+
+}
+.moutainimg img{
+
+  height:250px;
+  width:600px;
+
+
+}
+@media only screen and (max-width:800px){
+  .moutainimg img{
+  padding-top: 3px;
+  margin-top: 10px;
+  width:500px;
+  }
+}
+.mountain-container{
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+
+}
+@media only screen and (max-width:800px){
+  .mountain-container{
+    flex-direction: column;
+    margin-top: 3px;
+  }
+}
+.aboutus p{
+  width:600px;
+  text-align: justify;
+  line-height: 1.8;
+  font-family: 'Raleway', sans-serif;
+  color:black;
+}
+@media only screen and (max-width:800px){
+  .aboutus p{
+    width: 370px;
+    padding:5px;
+  }
+}
+.aboutus button{
+  background-color:grey;
+  margin-top: 10px;
+  border:1px solid grey;
+  padding:5px 20px;
+  color:white;
+}
