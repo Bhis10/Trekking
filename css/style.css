@@ -299,6 +299,7 @@ cursor: pointer;
   top:10%;
   left:7%;
   flex-wrap: wrap;
+  overflow: hidden;
 
 }
 .heroimg button{
@@ -393,13 +394,14 @@ margin-top: 10px;
 .moutainimg img{
   height:250px;
   width:600px;
+  overflow: hidden;
 }
 @media only screen and (max-width:800px){
   .moutainimg img{
   padding-top: 3px;
   margin-top: 10px;
   width:500px;
-  overflow: hidden;
+
   }
 }
 .mountain-container{
