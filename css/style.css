@@ -191,7 +191,7 @@ cursor: pointer;
   margin-top:19vh;
   margin-bottom:5vh;
 }
-#about h4{
+#about span h4{
   font-family: Raleway sans-serif;
   margin-bottom: 50px;
 }
@@ -364,7 +364,7 @@ cursor: pointer;
 }
 @media only screen and (max-width:800px){
   #about-mountains{
-    height: 550px;
+    height: 580px;
   }
 }
 @media only screen and (max-width:800px){
