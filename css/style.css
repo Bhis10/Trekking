@@ -246,7 +246,7 @@ cursor: pointer;
   padding:5px 20px;
   color:white;
   border:2px solid transparent;
-  background-color: grey;
+  background-color:#78909c;
   position: absolute;
   left:17%;
   margin-top:15px;
@@ -390,11 +390,8 @@ margin-top: 10px;
 
 }
 .moutainimg img{
-
   height:250px;
   width:600px;
-
-
 }
 @media only screen and (max-width:800px){
   .moutainimg img{
@@ -430,7 +427,7 @@ margin-top: 10px;
   }
 }
 .aboutus button{
-  background-color:#78909c;
+  background-color:grey;
   margin-top: 10px;
   border:1px solid grey;
   padding:5px 20px;
