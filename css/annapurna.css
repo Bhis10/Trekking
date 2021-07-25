@@ -27,7 +27,7 @@
   "sidebar main main"
   "sidebar footer footer";
 }
-@media only screen and (max-width:992px){
+@media only screen and (max-width:500px){
   .layout{
   grid-template-columns: 180px;
     }
@@ -79,7 +79,7 @@
   text-align: justify;
   font-size: 18px;
 }
-@media only screen and (max-width:992px){
+@media only screen and (max-width:500px){
   .info p{
 text-align: justify;
   }
@@ -104,14 +104,20 @@ button:hover{
 }
 .img-container{
   margin-top: 2px;
-  width:220px;
 
 }
 
 .img-container img{
   width:215px;
-  height:229px;
+  height:239px;
 
+
+}
+@media only screen and (max-width:500px){
+  .img-container img{
+    margin-top: 2px;
+    width:174px;
+  }
 }
 .social{
   display: flex;

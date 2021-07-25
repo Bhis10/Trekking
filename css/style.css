@@ -65,6 +65,7 @@ scroll-behavior: smooth;
 .Slogan h3{
   animation-duration: 3s;
 }
+
 .input{
   position: absolute;
   top:70%;
@@ -426,8 +427,10 @@ margin-top: 10px;
 }
 @media only screen and (max-width:800px){
   .aboutus p{
-    width: 370px;
+    width: 375px;
     padding:5px;
+
+
   }
 }
 .aboutus button{
