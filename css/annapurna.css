@@ -27,11 +27,7 @@
   "sidebar main main"
   "sidebar footer footer";
 }
-@media only screen and (max-width:500px){
-  .layout{
-  grid-template-columns: 180px;
-    }
-  }
+
 .collection{
   margin-top:0px;
 
@@ -79,11 +75,7 @@
   text-align: justify;
   font-size: 18px;
 }
-@media only screen and (max-width:500px){
-  .info p{
-text-align: justify;
-  }
-}
+
 .checked{
   color:orange;
 }
@@ -109,16 +101,11 @@ button:hover{
 
 .img-container img{
   width:215px;
-  height:239px;
+  height:233px;
 
 
 }
-@media only screen and (max-width:500px){
-  .img-container img{
-    margin-top: 2px;
-    width:174px;
-  }
-}
+
 .social{
   display: flex;
   justify-content:center;
@@ -144,4 +131,20 @@ button:hover{
 .row .input-field input:focus {
   border-bottom: 1px solid grey !important;
   box-shadow: 0 1px 0 0 grey !important
+}
+
+
+@media only screen and (max-width:500px){
+  .layout{
+  grid-template-columns: 180px;
+    }
+
+ .info p{
+  text-align: justify;
+  }
+
+  .img-container img{
+    margin-top: 2px;
+    width:174px;
+  }
 }

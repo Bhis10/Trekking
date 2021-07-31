@@ -287,13 +287,6 @@ cursor: pointer;
  height: 400px;
  filter: brightness(0.5);
 }
-
-@media only screen and (max-width:800px){
-  .banner-container{
-    flex-direction: column;
-  }
-}
-
 .heroimg{
   color: white;
   position: absolute;
@@ -309,14 +302,6 @@ cursor: pointer;
   background-color: grey;
   color:whitesmoke;
 }
-@media only screen and (max-width:800px){
-  .heroimg{
-    position:absolute;
-    top:0%;
-    left:5%;
-  }
-}
-
 .heroimg h4{
   font-family: Roboto, Arial, sans-serif;
 
@@ -330,28 +315,12 @@ cursor: pointer;
   font-style: italic;
   margin-bottom: 20px;
 }
-@media only screen and (max-width:800px){
-  .heroimg p{
-    line-height: 1.4;
-    margin-bottom: 10px;
-    width:350px;
-    }
-  }
-
 .rules{
   position: absolute;
   right:10%;
   top:20%;
   color:white;
 
-}
-@media only screen and (max-width:800px){
-  .rules{
-    position:absolute;
-    top:50%;
-    left: 6%;
-
-  }
 }
 .rules ul li{
   list-style: circle;
@@ -365,27 +334,11 @@ cursor: pointer;
   height:400px;
   margin-top: 20vh;
 }
-@media only screen and (max-width:800px){
-  #about-mountains{
-    height: 580px;
-  }
-}
-@media only screen and (max-width:800px){
-.about-moutain{
-margin-top: 10px;
-  }
-}
 .about-mountain h4{
   padding-top: 20px;
   text-align: center;
  font-family: Raleway sans-serif;
  color: #78909c;
-}
-@media only screen and (max-width:800px){
-  .about-mountain h4{
-  padding-top: 15px;
-  margin-bottom: 0px;
-  }
 }
 .moutainimg{
   display: flex;
@@ -397,13 +350,12 @@ margin-top: 10px;
   width:600px;
   overflow: hidden;
 }
-@media only screen and (max-width:800px){
-  .moutainimg img{
-  padding-top: 3px;
-  margin-top: 10px;
-  width:500px;
-
-  }
+.aboutus p{
+  width:600px;
+  text-align: justify;
+  line-height: 1.8;
+  font-family: 'Raleway', sans-serif;
+  color:black;
 }
 .mountain-container{
   margin-top: 5vh;
@@ -412,31 +364,58 @@ margin-top: 10px;
   column-gap: 20px;
 
 }
-@media only screen and (max-width:800px){
-  .mountain-container{
-    flex-direction: column;
-    margin-top: 3px;
-  }
-}
-.aboutus p{
-  width:600px;
-  text-align: justify;
-  line-height: 1.8;
-  font-family: 'Raleway', sans-serif;
-  color:black;
-}
-@media only screen and (max-width:800px){
-  .aboutus p{
-    width: 375px;
-    padding:5px;
-
-
-  }
-}
 .aboutus button{
   background-color:grey;
   margin-top: 7px;
   border:1px solid grey;
   padding:5px 20px;
   color:white;
+}
+
+
+
+@media only screen and (max-width:800px){
+  .banner-container{
+    flex-direction: column;
+  }
+  .heroimg{
+    position:absolute;
+    top:0%;
+    left:5%;
+  }
+  .heroimg p{
+    line-height: 1.4;
+    margin-bottom: 10px;
+    width:350px;
+    }
+    .rules{
+      position:absolute;
+      top:50%;
+      left: 6%;
+
+    }
+    #about-mountains{
+      height: 580px;
+    }
+    .about-moutain{
+    margin-top: 10px;
+      }
+      .about-mountain h4{
+      padding-top: 15px;
+      margin-bottom: 0px;
+      }
+      .moutainimg img{
+      padding-top: 3px;
+      margin-top: 10px;
+      width:500px;
+
+      }
+      .mountain-container{
+        flex-direction: column;
+        margin-top: 3px;
+      }
+      .aboutus p{
+        width: 375px;
+        padding:5px;
+      }
 }
